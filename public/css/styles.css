@@ -1,0 +1,91 @@
+body {
+    background-color: grey;
+}
+
+* {
+    padding: 0;
+    margin: 0px;
+
+}
+
+/*header*/
+
+.nav-top {
+    height: 100px;
+    width: 100%;
+    background-color: goldenrod;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: space-between;
+
+}
+
+.nav-top img {
+    width: 200px;
+}
+
+.busqueda {
+    position: relative;
+    color: #333;
+    font-size: 15px;
+    font-family: inherit;
+    border-radius: 8px;
+    background-color: #fff;
+    display: flex;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .2);
+    width: 60%;
+    padding: 20px 120px 20px 30px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0);
+    border-width: 1.5px;
+}
+
+.Links {
+    background-color: goldenrod;
+    display: flex;
+    list-style: none;
+    text-align: right;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 0px;
+    height: 50px;
+    width: 100%;
+}
+
+.accesos {
+    display: flex;
+    text-align: right !important;
+    list-style-type: none;
+    justify-content: flex-end;
+}
+
+/*main*/
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+    background-position: center center;
+
+}
+
+.ultima-visita {
+    display: flex;
+    margin: 50px;
+    list-style-type: none;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+
+
+/*footer*/
