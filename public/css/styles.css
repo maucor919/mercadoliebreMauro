@@ -13,7 +13,7 @@ body {
 .nav-top {
     height: 100px;
     width: 100%;
-    background-color: goldenrod;
+    background-color: yellow;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -45,7 +45,7 @@ body {
 }
 
 .Links {
-    background-color: goldenrod;
+    background-color: yellow;
     display: flex;
     list-style: none;
     text-align: right;
