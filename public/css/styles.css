@@ -59,6 +59,17 @@ body {
     width: 100%;
 }
 
+.accesos-links{
+    display: flex;
+    list-style-type: none;
+    list-style: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .accesos {
     display: flex;
     text-align: right !important;
@@ -80,6 +91,7 @@ body {
 .ultima-visita {
     display: flex;
     margin: 50px;
+    width: 60px;
     list-style-type: none;
     justify-content: flex-start;
     align-items: center;
