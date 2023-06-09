@@ -77,27 +77,92 @@ body {
     justify-content: flex-end;
 }
 
-/*main*/
-
 .banner {
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    text-align: center;
-    background-position: center center;
+    width: 100%;
+  
+  }
 
-}
+/*main*/
 
 .ultima-visita {
     display: flex;
-    margin: 50px;
-    width: 60px;
-    list-style-type: none;
-    justify-content: flex-start;
-    align-items: center;
-    box-sizing: border-box;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    justify-content: start;
+    
 }
 
+.tarjeta-producto{
+    max-width: 360px;
+    width: 23%;
+    min-width: 280px;
+    margin: 15px auto;
+    display: block;
+}
 
+.tarjeta-producto2{
+    max-width: 360px;
+    width: 100%;
+    margin: 15px auto;
+    display: block;
+}
+
+.tarjeta-producto3{
+    max-width: 360px;
+    width: 100%;
+    margin: 15px auto;
+    display: block;
+}
+
+.tarjeta-producto4{
+    max-width: 360px;
+    width: 100%;
+    margin: 15px auto;
+    display: block;
+}
+
+.tarjeta-producto5{
+    max-width: 360px;
+    width: 100%;
+    margin: 15px auto;
+    display: block;
+}
+
+.tarjeta-producto6{
+    max-width: 360px;
+    width: 100%;
+    margin: 15px auto;
+    display: block;
+}
 
 /*footer*/
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 0 auto;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: center;
+    align-items: baseline;
+}
+
+.parrafo1{
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column
+}
+
+.parrafo2{
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column  
+}
+
+.parrafo3{
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column  
+}
