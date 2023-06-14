@@ -84,6 +84,13 @@ body {
 
 /*main*/
 
+.titulo-main{
+    font-weight: 400;
+    font-size: 28px;
+    color: #555454;
+    margin-left: 11px;
+}
+
 .ultima-visita {
     display: flex;
     flex-wrap: wrap;
